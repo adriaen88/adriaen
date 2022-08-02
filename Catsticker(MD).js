@@ -8,7 +8,7 @@ const neeraj = image[Math.floor(Math.random()*image.length)]
 
 await message.sendMessage(
 
-await sticker('neeraj' , mask ),{quoted: message.data},'sticker')
+await sticker('neeraj' , neeraj ),{quoted: message.data},'sticker')
 
 });
 
