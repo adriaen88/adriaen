@@ -6,7 +6,7 @@ const mask = image[Math.floor(Math.random()*image.length)]
 
 //const { buffer } = await getBuffer(mask)
 
-await message.sendMessage(
+await message.send(
 
 await sticker('mask' , mask ),{quoted: message.data},'sticker')
 
